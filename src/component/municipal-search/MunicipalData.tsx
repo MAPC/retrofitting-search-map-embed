@@ -110,7 +110,7 @@ const MunicipalData: React.FC<MunicipalDataProps> = ({ data, selectedMuni, node,
     {/* <Legend /> */}
     <ul css={ulStyle}>
       {site ? showExpanded(data, node, selectedMuni, highlightedSites, site, dispatch, sitesCount) : '' }
-      {selectedMuni ? filterData(data, selectedMuni, dispatch, highlightedSites, sitesCount, setSitesCount) : ''}
+      {/* {selectedMuni ? filterData(data, selectedMuni, dispatch, highlightedSites, sitesCount, setSitesCount) : ''} */}
     </ul>
   </div>
 );
