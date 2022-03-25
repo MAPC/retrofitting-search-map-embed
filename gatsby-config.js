@@ -27,19 +27,6 @@ module.exports = {
         },
       },
     },
-    {
-      resolve: 'gatsby-plugin-google-gtag',
-      options: {
-        trackingIds: [`${process.env.GOOGLE_ANALYTICS_ID}`],
-        gtagConfig: {
-          cookie_expires: 0,
-        },
-        pluginConfig: {
-          head: false,
-          respectDNT: true,
-        },
-      },
-    },
     'gatsby-transformer-remark',
     {
       resolve: 'gatsby-source-filesystem',
