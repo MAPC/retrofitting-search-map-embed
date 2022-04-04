@@ -133,7 +133,7 @@ const SearchMap: React.FC<MunicipalMapProps> = ({ data, selectedMuni, dispatch, 
         height="100vh"
         onViewportChange={handleViewportChange}
         mapboxApiAccessToken="pk.eyJ1IjoiaWhpbGwiLCJhIjoiY2plZzUwMTRzMW45NjJxb2R2Z2thOWF1YiJ9.szIAeMS4c9YTgNsJeG36gg"
-        mapStyle="mapbox://styles/ihill/ckzmwlj7a000814p5udbl3din"
+        mapStyle="mapbox://styles/ihill/cl1kqxbhj005114od2f8comie"
         scrollZoom={true}
         onLoad={() => {
             toggleRegion(true);
