@@ -11,10 +11,14 @@ module.exports = {
     'gatsby-plugin-emotion',
     'gatsby-plugin-react-helmet',
     {
-      resolve: 'gatsby-plugin-google-gtag',
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingIds: [`${process.env.GOOGLE_ANALYTICS_ID}`],
+        trackingIds: [
+          "G-L580ZXGEFC"
+        ],
         gtagConfig: {
+          optimize_id: "OPT_CONTAINER_ID",
+          anonymize_ip: true,
           cookie_expires: 0,
         },
         pluginConfig: {
